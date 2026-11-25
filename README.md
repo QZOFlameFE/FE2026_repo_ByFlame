@@ -15,7 +15,7 @@ CONTENT
 <h2 align = center> Team name: QYZYLORDA Flame </h2>
 <h2 align = center> Team members: Sadu Yernur, Sadu Ayanur </h2>
 <h2 align = center> email: qzo.flame.fe2024@gmail.com </h2>
-<h2 align = center> Previous github repo link: <a href="https://github.com/QZOFlameFE/QZOFlame_2025">2026 repo </a> </h2>
+<h2 align = center> Previous github repo link: <a href="https://github.com/QZOFlameFE/QZOFlame_2025">2025 repo </a> </h2>
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;"
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;">
