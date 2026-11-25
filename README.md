@@ -664,18 +664,22 @@ Pixy camera
 <p>
   <b>How to calculate Camera Coverage View? </b>
   </br>
-  - $h$ — height of the camera lens above the field
-- $\alpha$ — downward tilt angle of the optical axis from the horizontal plane
-- $\beta$ — vertical viewing angle
-- $\gamma$ — horizontal viewing angle
+  - $h$ — height of the camera lens above the field </br>
+- $\alpha$ — downward tilt angle of the optical axis from the horizontal plane </br>
+- $\beta$ — vertical viewing angle </br>
+- $\gamma$ — horizontal viewing angle </br>
 
 $$
 d_{\text{near}} = \frac{h}{\tan(\alpha + \beta/2)}
 $$
-
+</br>
 $$
 d_{\text{far}} = \frac{h}{\tan(\alpha - \beta/2)}
 $$
+</br>
+<b> For our case - $h$ = 22 cm, - $\alpha$ = 40°, - $\beta$ = 55°, - $\gamma$ = 80° </b>
+</br>
+<b> For that d = </b>
 </p>
 
 
