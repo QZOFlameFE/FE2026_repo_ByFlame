@@ -446,7 +446,7 @@ Considering the potential decrease in battery voltage that may affect the repeat
 <p>
   <b>I<sub>typical</sub> = 0.715 + I<sub>steering</sub> = 0.855 A (by taking I<sub>steering</sub> = 0.14 A or 20% of motor power)</b>
   </br>
-  <b>P<sub>typical</sub> = 6.33 W</b>
+  <b>P<sub>typical</sub> = 6.33 - 7.01 W</b>
 </p>
 <table>
   <thead>
@@ -458,19 +458,19 @@ Considering the potential decrease in battery voltage that may affect the repeat
   </thead>
   <tbody>
     <tr>
-      <td>Idle</td>
-      <td>0.30 - 0.43 A</td>
-      <td>2.28 - 3.53 W</td>
+      <td> Idle </td>
+      <td> 0.30 - 0.43 A </td>
+      <td> 2.28 - 3.53 W </td>
     </tr>
     <tr>
-      <td>Normal Driving</td>
-      <td>0.93 - 1.55 A</td>
-      <td>7.07 - 12.71 W</td>
+      <td> Normal Driving </td>
+      <td> 0.93 - 1.55 A </td>
+      <td> 7.07 - 12.71 W </td>
     </tr>
     <tr>
-      <td>Typical Case</td>
-      <td>  </td>
-      <td>  </td>
+      <td> Typical Case </td>
+      <td> 0.855 A </td>
+      <td> 6.33 - 7.01 W </td>
     </tr>
   </tbody>
 </table>
