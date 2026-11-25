@@ -444,9 +444,9 @@ Considering the potential decrease in battery voltage that may affect the repeat
 <b> Ultrasonic motor uses 10%, so electric current is about 0.07 A </b>
 </br>
 <p>
-  <b>I<sub>typical</sub> = 0.715 + I<sub>steering</sub></b>
+  <b>I<sub>typical</sub> = 0.715 + I<sub>steering</sub> = 0.855 A (by taking I<sub>steering</sub> = 0.14 A or 20% of motor power)</b>
   </br>
-  <b>P<sub>typical</sub> = 6.33 W (by taking I<sub>steering</sub> = 0.14 A or 20% of motor power)</b>
+  <b>P<sub>typical</sub> = 6.33 W</b>
 </p>
 <table>
   <thead>
@@ -466,6 +466,11 @@ Considering the potential decrease in battery voltage that may affect the repeat
       <td>Normal Driving</td>
       <td>0.93 - 1.55 A</td>
       <td>7.07 - 12.71 W</td>
+    </tr>
+    <tr>
+      <td>Typical Case</td>
+      <td>  </td>
+      <td>  </td>
     </tr>
   </tbody>
 </table>
