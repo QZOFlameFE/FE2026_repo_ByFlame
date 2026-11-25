@@ -381,7 +381,7 @@ Considering the potential decrease in battery voltage that may affect the repeat
 </table>
 <p>
   <h3>Power Budget: calculating 3 operating modes</h3>
-  <h4>Idle Mode</h4>
+  <h4>1) Idle Mode</h4>
   <b>I<sub>electronics</sub> = I<sub>EV3</sub> + I<sub>sensors</sub></b>
   </br>
   <b>So, I<sub>electronics</sub> = I<sub>idle</sub> = 0.30 - 0.43 A (sum of sensors + brick)</b>
@@ -395,7 +395,7 @@ Considering the potential decrease in battery voltage that may affect the repeat
   <b>Taking P<sub>max</sub> = P<sub>idle</sub> = 3.53 W</b>
 </p>
 </br>
-<h4>Normal/Driving Mode</h4>
+<h4>2) Normal/Driving Mode</h4>
 <table>
   <thead>
     <tr>
@@ -446,6 +446,33 @@ Considering the potential decrease in battery voltage that may affect the repeat
   </br>
   <b>P<sub>typical</sub> = 6.33 W (by taking I<sub>steering</sub> = 0.14 A or 20% of motor power)</b>
 </p>
+<table>
+  <thead>
+    <tr>
+      <th>Operating Mode</th>
+    </tr>
+    <tr>
+      <th>Current</th>
+    </tr>
+    <tr>
+      <th>Power at 7.6 - 8.2 V</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Idle</td>
+      <td>0.30 - 0.43 A</td>
+      <td>2.28 - 3.53 W</td>
+    </tr>
+    <tr>
+      <td>Normal Driving</td>
+      <td>0.93 - 1.55 A</td>
+      <td>7.07 - 12.71 W</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ---
 
 ### Power distribution architecture
