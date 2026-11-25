@@ -384,9 +384,8 @@ Considering the potential decrease in battery voltage that may affect the repeat
 <br>
   <b>I<sub>electronics</sub> = I<sub>EV3</sub> + I<sub>sensors</sub></b>
   </br>
-  <b>So, I<sub>electronics</sub> = 0.30 - 0.43 A</b>
+  <b>So, I<sub>electronics</sub> = I<sub>idle</sub> = 0.30 - 0.43 A (sum of sensors + brick)</b>
   </br>
-  <b>I<sub>idle</sub> = 0.30 - 0.43 A (sum of sensors + brick)</b>
   <b>Taking voltage of EV3 Brick (7.6 - 8.2 V) and P = UI formula we get:</b> 
   </br>
   <b>P<sub>min</sub> = 7.6 * 0.30 = 2.28 W </b>
