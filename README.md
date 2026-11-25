@@ -409,7 +409,6 @@ Considering the potential decrease in battery voltage that may affect the repeat
       <td> Rear Motor A</td>
       <td> 35 - 55% </td>
       <td> 0.245 – 0.385 A </td>
-      <td> Ultrasonic Motor D </td>
     </tr>
     <tr>
       <td> Rear Motor B </td>
@@ -422,9 +421,9 @@ Considering the potential decrease in battery voltage that may affect the repeat
       <td> 0.070 – 0.175 A </td>
     </tr>
     <tr>
-      <td>Ultrasonic Motor D</td>
-      <td>10 - 25%</td>
-      <td>0.070 - 0.175 A</td>
+      <td> Ultrasonic Motor D</td>
+      <td> 10 - 25%</td>
+      <td> 0.070 - 0.175 A</td>
     </tr>
   </tbody>
 </table>
