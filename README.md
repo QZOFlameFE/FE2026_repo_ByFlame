@@ -680,7 +680,9 @@ d_{\text{far}} = \frac{h}{\tan(\alpha - \beta/2)}
 $$
 
 </br>
+
 For our case - $h$ = 22 cm, - $\alpha$ = 40°, - $\beta$ = 55°, - $\gamma$ = 80°
+
 </br>
 <b> For that d<sub>near</sub> = 9.11 cm and d<sub>far</sub> = 99.24 cm </b>
 
