@@ -407,21 +407,24 @@ Considering the potential decrease in battery voltage that may affect the repeat
   <tbody>
     <tr>
       <td> Rear Motor A</td>
-      <td> Rear Motor B </td>
-      <td> Steering Motor C </td>
+      <td> 35 - 55% </td>
+      <td> 0.245 – 0.385 A </td>
       <td> Ultrasonic Motor D </td>
     </tr>
     <tr>
-      <td> 35-55% </td>
-      <td> 35-55% </td>
-      <td> 10-25% </td>
-      <td> 10-25% </td>
+      <td> Rear Motor B </td>
+      <td> 35 - 55% </td>
+      <td> 0.245 – 0.385 A </td>
     </tr>
     <tr>
-      <td> 0.245–0.385 A </td>
-      <td> 0.245–0.385 A </td>
-      <td> 0.070–0.175 A </td>
-      <td> 0,070–0,175 A </td>
+      <td> Steering Motor C </td>
+      <td> 10 - 25% </td>
+      <td> 0.070 – 0.175 A </td>
+    </tr>
+    <tr>
+      <td>Ultrasonic Motor D</td>
+      <td>10 - 25%</td>
+      <td>0.070 - 0.175 A</td>
     </tr>
   </tbody>
 </table>
@@ -450,11 +453,7 @@ Considering the potential decrease in battery voltage that may affect the repeat
   <thead>
     <tr>
       <th>Operating Mode</th>
-    </tr>
-    <tr>
       <th>Current</th>
-    </tr>
-    <tr>
       <th>Power at 7.6 - 8.2 V</th>
     </tr>
   </thead>
