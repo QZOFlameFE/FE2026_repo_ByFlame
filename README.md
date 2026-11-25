@@ -350,22 +350,6 @@ The power consumption capacity of the EV3 Large Motor can be as much as 1.6 A at
     </tr>
   </tbody>
 </table>
-<p>
-<b>Total estimated peak current:</b> approximately 3.2 – 3.8A depending on load distribution.
-<br>
-  <b>I<sub>electronics</sub> = I <sub>EV3</sub> + I<sub>sensors</sub></b>
-  </br>
-  <b>So, I<sub>electronics</sub> = 0.30 - 0.43 A</b>
-  </br>
-  <b>I<sub>idle</sub> = 0.30 - 0.43 A (sum of sensors + brick)</b>
-  <b>Taking voltage of EV3 Brick (7.6 - 8.2 V) and P = UI formula we get:</b> 
-  </br>
-  <b>P<sub>min</sub> = 7.6 * 0.30 = 2.28 W </b>
-  </br>
-  <b>P<sub>max</sub> = 8.2 * 0.43 = 3.53 W </b> </br>
-  </br>
-  <b>Taking P<sub>max</sub> = P<sub>idle</sub> = 3.53 W</b>
-</p>
 <br>
 Considering the potential decrease in battery voltage that may affect the repeatability of control signals of the steering controller and velocity curves, it was decided that it must be adhered to:
 
@@ -395,6 +379,22 @@ Considering the potential decrease in battery voltage that may affect the repeat
     </tr>
   </tbody>
 </table>
+<p>
+<b>Total estimated peak current:</b> approximately 3.2 – 3.8A depending on load distribution.
+<br>
+  <b>I<sub>electronics</sub> = I<sub>EV3</sub> + I<sub>sensors</sub></b>
+  </br>
+  <b>So, I<sub>electronics</sub> = 0.30 - 0.43 A</b>
+  </br>
+  <b>I<sub>idle</sub> = 0.30 - 0.43 A (sum of sensors + brick)</b>
+  <b>Taking voltage of EV3 Brick (7.6 - 8.2 V) and P = UI formula we get:</b> 
+  </br>
+  <b>P<sub>min</sub> = 7.6 * 0.30 = 2.28 W </b>
+  </br>
+  <b>P<sub>max</sub> = 8.2 * 0.43 = 3.53 W </b>
+  </br>
+  <b>Taking P<sub>max</sub> = P<sub>idle</sub> = 3.53 W</b>
+</p>
 
 
 
