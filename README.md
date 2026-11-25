@@ -576,20 +576,24 @@ Wiring allows for proper segregation of the mechanisms used for locomotion, stee
 <tr>
 <th width=500>
   
-  ![obstacle detection](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/obstacle_detection.png)
+  ![obstacle detection](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Obstacle_management/obstacle_detection.png)
+  <!-- ![obstacle detection](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/obstacle_detection.png) -->
 </th>
   <th width=500>
     
-  ![obstacle detection](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Obstacle_detection1.png)
+  ![obstacle detection](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Obstacle_management/Obstacle_detection1.png)
+  <!-- ![obstacle detection](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Obstacle_detection1.png) -->
   </th>
   <tr>
     <th width=500>
       
-  ![linear function](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Linear%20function%20convert.jpeg)
+  ![linear function](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Obstacle_management/Linear%20function%20convert.jpeg)
+  <!-- ![linear function](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Linear%20function%20convert.jpeg) -->
 </th>
   <th width=500>
     
-  ![linear function](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/linear_function.png)
+  ![linear function](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Obstacle_management/linear_function.png)
+  <!-- ![linear function](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/linear_function.png) -->
 </table>
 
 </br>
@@ -612,6 +616,7 @@ PixyMon v2 application
 <th width=400>
 
 ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_Management/Pixy_Block.png)
+<!-- ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_Management/Pixy_Block.png) -->
 <p>
 Pixy block for LEGO MINDSTORMS
 </p>
@@ -626,6 +631,7 @@ Pixy2 camera is a universal tool as it can work with EV3, arduino and raspberry.
 <th width=250>
   
 ![Pixy camera](https://github.com/user-attachments/assets/f9f93471-1b46-469d-9ef1-d752f6181133)
+<!-- ![Pixy camera](https://github.com/user-attachments/assets/f9f93471-1b46-469d-9ef1-d752f6181133) -->
 <p> 
 Pixy camera
 </p>
@@ -633,6 +639,48 @@ Pixy camera
 </tr>
 </table>
 </div>
+
+<table>
+  <thead>
+    <tr>
+      <th> Pixy Version </th>
+      <th> Horizontal FOV </th>
+      <th> Vertical FOV </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Pixy v2.0 </td>
+      <td> 60° </td>
+      <td> 40° </td>
+    </tr>
+    <tr>
+      <td> Pixy v2.1 </td>
+      <td> 80° </td>
+      <td> 55° </td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <b>How to calculate Camera Coverage View? </b>
+  </br>
+  <b> \(h\) - height of the camera lens above the field</b>
+  </br>
+  <b> \(\alpha\) - downward tilt angle of the optical axis from the horizontal plane</b>
+  </br>
+  <b> \(\beta\) - vertical viewing angle</b>
+  </br>
+  <b> \(\gamma\) - horizontal viewing angle</b>
+  </br>
+  <b> \[
+d_{\text{near}}=
+\frac{h}{\tan(\alpha+\beta/2)}
+\] </b>
+<b> \[
+d_{\text{far}}=
+\frac{h}{\tan(\alpha-\beta/2)}
+\] </b>
+</p>
 
 
 For the work in LEGO MINDSTORMS application you need to install "pixy block".<br>
