@@ -661,7 +661,6 @@ Pixy camera
     </tr>
   </tbody>
 </table>
-<p>
   <b>How to calculate Camera Coverage View? </b>
   </br>
   - $h$ — height of the camera lens above the field </br>
@@ -672,15 +671,17 @@ Pixy camera
 $$
 d_{\text{near}} = \frac{h}{\tan(\alpha + \beta/2)}
 $$
+
 </br>
+
 $$
 d_{\text{far}} = \frac{h}{\tan(\alpha - \beta/2)}
 $$
+
 </br>
-<b> For our case - $h$ = 22 cm, - $\alpha$ = 40°, - $\beta$ = 55°, - $\gamma$ = 80° </b>
+For our case - $h$ = 22 cm, - $\alpha$ = 40°, - $\beta$ = 55°, - $\gamma$ = 80°
 </br>
-<b> For that d = </b>
-</p>
+<b> For that d<sub>near</sub> = 9.11 cm and d<sub>far</sub> = 99.24 cm </b>
 
 
 For the work in LEGO MINDSTORMS application you need to install "pixy block".<br>
