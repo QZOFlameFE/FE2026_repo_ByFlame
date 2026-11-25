@@ -380,8 +380,8 @@ Considering the potential decrease in battery voltage that may affect the repeat
   </tbody>
 </table>
 <p>
-<b>Total estimated peak current:</b> approximately 3.2 – 3.8A depending on load distribution.
-<br>
+  <h3>Power Budget: calculating 3 operating modes</h3>
+  <h4>Idle Mode</h4>
   <b>I<sub>electronics</sub> = I<sub>EV3</sub> + I<sub>sensors</sub></b>
   </br>
   <b>So, I<sub>electronics</sub> = I<sub>idle</sub> = 0.30 - 0.43 A (sum of sensors + brick)</b>
@@ -394,10 +394,58 @@ Considering the potential decrease in battery voltage that may affect the repeat
   </br>
   <b>Taking P<sub>max</sub> = P<sub>idle</sub> = 3.53 W</b>
 </p>
-
-
-
-
+</br>
+<h4>Normal/Driving Mode</h4>
+<table>
+  <thead>
+    <tr>
+      <th> Motor </th>
+      <th> Estimated Load </th>
+      <th> Calculation of Electric Current </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Rear Motor A</td>
+      <td> Rear Motor B </td>
+      <td> Steering Motor C </td>
+      <td> Ultrasonic Motor D </td>
+    </tr>
+    <tr>
+      <td> 35-55% </td>
+      <td> 35-55% </td>
+      <td> 10-25% </td>
+      <td> 10-25% </td>
+    </tr>
+    <tr>
+      <td> 0.245–0.385 A </td>
+      <td> 0.245–0.385 A </td>
+      <td> 0.070–0.175 A </td>
+      <td> 0,070–0,175 A </td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <b>I<sub>motors</sub> = 0.63 - 1.12 A </b> 
+  </br>
+  <b>I<sub>normal</sub> = I<sub>motors</sub> + I<sub>electronics</sub> = 0.93 - 1.55 A </b> 
+  </br>
+  <b>P<sub>min</sub> = 7.6 * 0.93 = 7.07 W</b>
+  </br>
+  <b>P<sub>max</sub> = P<sub>normal</sub> =8.2 * 1.55 = 12.71 W</b>
+</p> 
+</br>
+<b>For our program/code for Obstacle Challenge case:</b> 
+</br>
+<b> Rear motors both use 20% power, so electric current is about 0.14 A</b>
+<b> Steering motor use PID for power management, so lets mark it I<sub>steering</sub></b>
+<b> Ultrasonic motor uses 10%, so electric current is about 0.07 A </b>
+</br>
+<p>
+  <b>I<sub>typical</sub> = 0.715 + I<sub>steering</sub></b>
+  </br>
+  <b>P<sub>typical</sub> = 6.33 W (by taking I<sub>steering</sub> = 0.14 A or 20% of motor power)</b>
+</p>
 ---
 
 ### Power distribution architecture
