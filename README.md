@@ -663,6 +663,7 @@ Pixy camera
 </table>
   <b>How to calculate Camera Coverage View? </b>
   </br>
+  
   - $h$ — height of the camera lens above the field </br>
 - $\alpha$ — downward tilt angle of the optical axis from the horizontal plane </br>
 - $\beta$ — vertical viewing angle </br>
