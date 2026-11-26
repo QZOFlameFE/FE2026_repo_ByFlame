@@ -20,14 +20,14 @@ CONTENT
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;">
 <div align = center>
-  <img src=https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Team_photos/QZO_Logo12.png> 
-  <img src="https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Team_photos/QZO_logoo.jpg">
+  <img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Team_photos/QZO_Logo12.png> 
+  <img src="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Team_photos/QZO_logoo.jpg">
 </div>
 </div>
 </div>
 <h2 align = center>Our team already participated in the 2024 and 2025 seasons, and we won second place in the FE category in 2024.</h2>
 <div align = center>
-<img src="https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Team_photos/2024.jpeg"/>
+<img src="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Team_photos/2024.jpeg"/>
 </div>
 
 # Contents 
@@ -72,8 +72,8 @@ CONTENT
 -->
 # Mobility and mechanical design
 
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinalscheme.jpg)
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinalpixyview.jpg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinalscheme.jpg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinalpixyview.jpg)
 <p>   Our robot is designed by lego, especially we used LEGO MINDSTORMS Education Core Set(Serial number 45544) and other LEGO EV3 sets: EV3 Expansion Set, EV3 Homeschool Combo Pack and others. You can view all of the LEGO EV3 sets by this link: <a href="https://www.bricklink.com/catalogList.asp?catType=S&catString=166.59.800">BrickLink[1]</a>. Robot's wheels are taken from LEGO SPIKE Prime set and its expansion set(serial numbers 45678-1 and  45680-1). </p> </br>
 
 ### Technical specifications and footprint constraints
@@ -100,7 +100,7 @@ CONTENT
 <tr>
 <th width=250>
   
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/concepts/parallelparkingscheme.jpeg) </br>
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/concepts/parallelparkingscheme.jpeg) </br>
 </th>
 </tr>
 </table>
@@ -109,7 +109,7 @@ CONTENT
 ### Motor selection and actuator architecture
   We have a choice between 2 types of LEGO motors: large motor and medium motor. The comparison can be viewed by this link: <a href="https://www.eurobricks.com/forum/index.php?/forums/topic/87670-ev3-large-and-medium-motors-comparison/">Comparison of technical specifications[2]/</a>. According to <a href="https://www.researchgate.net/publication/345182894_Dynamic_analysis_modeling_and_control_of_the_LEGO_EV3_modular_mobile_platform">research[3]</a> 
  
- <img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/medium%20motor.jpg width="40%">   <img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/Large%20motor.jpg width="48%">
+ <img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/medium%20motor.jpg width="40%">   <img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/Large%20motor.jpg width="48%">
   
 
 <p> The choice of actuators was guided by an assessment of the LEGO motor specification and performance targets defined by the research team. They needed to select between two main actuator types, namely the Large Motor and the Medium Motor.</p>
@@ -212,7 +212,7 @@ The drivetrain configuration went through numerous R&D iterations to address the
 The current Version 4 configuration employs a specially designed two-stage compound gear train in order to enhance the Medium Motor's optimal power output range:
 * **First Stage (Speed Enhancer):** <br> There is a direct transmission from the 24-teeth driver gear to the 8-teeth follower gear. The $1:3$ step up provides maximum rotational speed.
 * **Second Stage (Torque Compensator):** <br> The motion is conveyed by $1:1$ link to the 20-teeth gear, driving the 28-teeth gear that feeds the mechanical differential. In this way, the $20:28$ ($5:7$) step down mitigates the maximum velocity, allowing recovering mechanical torque. <br>
-<img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/gear%20ratio.png width=15%> <br>
+<img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/gear%20ratio.png width=15%> <br>
 
 As a result of such optimization, torque consumption is balanced with physical acceleration. The average stable velocity in this case is **0.25 m/s** (1 meter per 4 seconds) in competition condition with payload. Such modification fully excludes any stress on the motor preventing heat generation.
 
@@ -220,9 +220,9 @@ As a result of such optimization, torque consumption is balanced with physical a
 
 #### Comparison between parallel steering system and Ackermann system 
 The base of our chassis design comes from parallel steering model geometry. Wheels that are connected to the steering control always turn on the same angle. However, last year we used Pro-Akkerman steering model geometry. The difference is in the angle of the wheels. Pro-Akkerman makes inner wheel turn more than outer wheel, because distances that inner and outer wheels go are dissimilar(while turning). <br>
-<img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/concepts/akkermanangles.jpg" alt="Ackermann Design"> <br>
+<img src="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/concepts/akkermanangles.jpg" alt="Ackermann Design"> <br>
 
-<img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/concepts/turndistance.jpg" width="500" height="350" alt="Ackermann Design">
+<img src="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/concepts/turndistance.jpg" width="500" height="350" alt="Ackermann Design">
 
 With a parallel steering model, the inner wheel does not align with its natural turning radius and tends to scrub against to surface, causing potential danger for the stability.
 <p>Initially, the Ackermann steering system was used to provide smooth and efficient turns without slippage at high speeds. However, it was determined during tests that the Ackermann system necessitated a considerably bigger turning radius, making the robot highly vulnerable in cases where immediate and quick evasive action was necessary due to its obstacle arrangement.
@@ -234,9 +234,9 @@ To facilitate immediate direction switching, it was decided to adopt the Paralle
 
 This issue was solved entirely through structural component selection rather than software calibration:
 * **Option A (High-Friction Black Connectors):** <br>
-<img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/High-Friction%20Black%20Connectors.png width=10%> <br>
+<img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/High-Friction%20Black%20Connectors.png width=10%> <br>
 Provides rigid, zero-backlash mating but increases structural resistance, making the steering servo work harder.
-* **Option B (Low-Friction Grey Pins):** <br> <img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/Low-Friction%20Grey%20Pins.png width=10%> <br> Allows effortless steering rotation but introduces severe mechanical play (backlash).
+* **Option B (Low-Friction Grey Pins):** <br> <img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/Low-Friction%20Grey%20Pins.png width=10%> <br> Allows effortless steering rotation but introduces severe mechanical play (backlash).
 
 **Engineering Decision:**  <br>*Option A was selected.* By eliminating mechanical play structurally, steering predictability was restored. 
 
@@ -247,16 +247,16 @@ Provides rigid, zero-backlash mating but increases structural resistance, making
 
 * **Drive Rear Axle:** <br> The robot is designed using LEGO SPIKE Prime wheels with a diameter of 5.6 cm. In previous designs, LEGO EV3 tires were used; they exhibited high coefficients of slippage when accelerating suddenly due to their design. LEGO SPIKE Prime tires are made of a unique rubber material, which provides better traction on the surface.
   * **Trade-off:** <br> Switching to 5.6 cm tires resulted in a somewhat lower theoretical maximum speed because of the wheel size, but the trade-off was made for better accuracy in tracking. <br>
-<img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/LEGO%20SPIKE%20Prime%20wheels.jpg width=15%> <br>
+<img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/LEGO%20SPIKE%20Prime%20wheels.jpg width=15%> <br>
   * **Experimental Evidence:** <br> The use of SPIKE Prime tires, compared to EV3 tires, lowered the overall drift in distance traveled from 10–15 cm to 3–5 cm over three laps.
  
 * **Front Steering Axle:**  <br> Small wheels with a diameter of 2.4 cm were chosen to mount on the robot. Due to the size of the wheels and their limited angle of steering, there is no chance of contact between the tires and the sides of the chassis or the Intelligent EV3 Brick.<br>
-<img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/Front%20Steering%20%20wheels.png width=10%> <br>
+<img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/Front%20Steering%20%20wheels.png width=10%> <br>
 
   The explanation of our construction design is on our youtube channel <a href="https://www.youtube.com/channel/UC0_5yZ2aPdJc0X5wtIw4ZcA">"QZO Flame"[4] (tag: @QZOFlame)</a>.
    
-   * [Building Instructions and BOM](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Instructions/instruction.pdf)
-   * [3D model of Pixy Camera_Case](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/3D_models/README.md) <br> (used application AutoCAD)
+   * [Building Instructions and BOM](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/instruction.pdf)
+   * [3D model of Pixy Camera_Case](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/3D_models/README.md) <br> (used application AutoCAD)
 
 ### Center of mass and weight distribution
   The placement of heavy elements was extensively iterated to equalize the forces acting normally on both front and rear axles.
@@ -264,7 +264,7 @@ Provides rigid, zero-backlash mating but increases structural resistance, making
 Previous designs had a heavy Intelligent EV3 Brick (275 g) located towards the back, along with the sensors. It meant that the Center of Gravity was displaced rearwards, thereby raising the front steering axle. Since the front wheels would be deprived of normal pressure, they started to slip during turning maneuvers, making the commands meaningless. Although additional weights could be installed in front for a temporary fix, it would increase the overall vehicle mass and strain the power train.
 
 In the current design, the Intelligent EV3 Brick is moved forwards and placed above the mid-front part of the vehicle. It means that proper weight distribution allows applying enough normal force to the front tires so they can provide adequate mechanical grip when used for steering, while enough force will remain to be applied to the high-grip rear SPIKE wheels. Additional weights become unnecessary in the current configuration.
-<img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinalbalance.jpg" width="600">
+<img src="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinalbalance.jpg" width="600">
 
 
 # <hr/>
@@ -281,7 +281,7 @@ Power consumption details for motors and sensors can be found here:
 <a href="https://www.dexterindustries.com/ev3-current-consumption-measurement/">EV3 Current Consumption Measurement[6]</a>
 The calculation for power consumption is based on the standard power consumption values of the LEGO EV3 motors and sensors.
 The power consumption capacity of the EV3 Large Motor can be as much as 1.6 A at maximum power while the power consumption of the EV3 Medium Motor can be as much as 0.7 A.
-<br> *Detailed structural routing diagrams and current benchmarks are cataloged within our [Electrical Wiring Diagrams Portfolio](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/schemes/README.md).*
+<br> *Detailed structural routing diagrams and current benchmarks are cataloged within our [Electrical Wiring Diagrams Portfolio](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/README.md).*
 
 <table>
   <thead>
@@ -498,15 +498,15 @@ This system simplifies the system and makes it more reliable by removing potenti
 </p>
 
 * **Gyroscope:** <br> The gyroscope is located in an easy-to-reach position on the chassis to ensure that any repairs are easily carried out and the connection between the sensor can be rapidly made before the start of the trial. This is because this position has been selected based on its ease of use, mainly with regards to disconnection and reconnection of the sensor to ensure calibration. The position does not impact the accuracy of measurements.
-   * [gyro sensor](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/gyro_sensor.md)
+   * [gyro sensor](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/gyro_sensor.md)
 
 * **Ultrasonic sensor:** <br> The ultrasonic sensor is mounted at the front of the robot and connected to a medium motor for rotation. This allows a single sensor to cover multiple directions (left, front, right) without increasing hardware complexity. The placement was chosen for practical reasons, mainly to keep the mechanical design simple and reduce the number of sensors needed. Using one rotating sensor also simplifies wiring and reduces calibration effort compared to using multiple fixed sensors.
-  * [ultrasonic sensor](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/ultrasonic_sensor.md)
+  * [ultrasonic sensor](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/ultrasonic_sensor.md)
   
 * **Color sensor:** <br> The color sensor will be mounted in the middle of the robot, underneath, at the bottom. This will enable the color sensor to detect markings on the floor consistently below the robot when in motion. The central mounting of the sensor was done to facilitate odometry and line detection, making it easy to refer to the robot's position when in motion.
-  * [color sensor](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/color_sensor.md) <br><br>  and other sense managements:
-  * [encoders from motors](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/encoders_from_motors.md)
-  * [odometry](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/odometry.md)
+  * [color sensor](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/color_sensor.md) <br><br>  and other sense managements:
+  * [encoders from motors](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/encoders_from_motors.md)
+  * [odometry](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/odometry.md)
 
 
 ---
@@ -514,7 +514,7 @@ This system simplifies the system and makes it more reliable by removing potenti
 ### Calibration methods
 
 Calibration for the Pixy camera is done through PixyMon, the software used on a computer to adjust the camera. The software offers many parameters to be adjusted so that we can set up the camera according to the current environment. In most cases, we test the color signature of objects and confirm if the camera can recognize red and green objects based on the current lighting conditions. Due to different lighting conditions depending on location, we do this calibration many times before every race. *Here you can see how to set up this camera* <br>
- * [Pixy2 camera's configuration](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/README.md) <br>
+ * [Pixy2 camera's configuration](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Obstacle_management/README.md) <br>
 
 The calibration process for the gyroscope is done automatically during the start of every race. Through the EV3-G software, we use a reset block to set the value of the sensor to zero.
 
@@ -549,7 +549,7 @@ Moreover, several actions have been undertaken to enhance the repeatability of r
 
 ### Wiring diagram
 
-<img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/Wiring%20Diagram.png> <br>
+<img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/Wiring%20Diagram.png> <br>
 A wiring layout for the robot is based entirely on the EV3 Intelligent Brick and its ports, in which all sensors and actuators are plugged directly into the brick's inputs and outputs.
 
 Motor ports include the following connections:
@@ -603,7 +603,7 @@ Wiring allows for proper segregation of the mechanisms used for locomotion, stee
 <tr>
 <th width=250>
   
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_Management/ICON%20PIxyMon%20v2.png)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Obstacle_Management/ICON%20PIxyMon%20v2.png)
 <p> 
 PixyMon v2 application
 </p>
@@ -615,7 +615,7 @@ PixyMon v2 application
 <tr>
 <th width=400>
 
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_Management/Pixy_Block.png)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Obstacle_Management/Pixy_Block.png)
 <!-- ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_Management/Pixy_Block.png) -->
 <p>
 Pixy block for LEGO MINDSTORMS
@@ -701,7 +701,7 @@ This block outputs: </br>
 <tr>
 <th width=400>
   
-![Pixy2 block](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Pixy2block.png)
+![Pixy2 block](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Obstacle_management/Pixy2block.png)
 </th>
 </tr>
 </table>
@@ -721,9 +721,9 @@ The robot's trajectory is determined by two main situations: <br>
 
 ### Bypassing obstacles (when pixy camera sees a road sign (State 1)) 
 We use steering mechanism and pixy2 coordinates and connect them with linear function. Y value from pixy2 gives how far the robot should be from the object, using a linear function. Using the obtained value and the real value X from pixy2, we can find an error between robot and pillar and give this error to the steering mechanism. So if the pillar is close to robot linear function gives high values to steering mechanism's motor in order to avoid crush. <br>
-<img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/linear%20function.png> <br>
+<img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/linear%20function.png> <br>
 However, now we use a quadratic function for obstacle avoidance instead of a linear one. Unlike the linear function, which requires only two points, the quadratic function needs at least three points to define the trajectory. This allows the robot to generate a smoother path when avoiding obstacles, improving motion stability and reducing the risk of hitting pillars. In the tests that were done, the linear function was found to make the robot either scratch or move off the desired path in about 1 out of 6. However, after adopting the quadratic function, this reduced to 1 out of 15 test attempts. <br>
-<img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/quadratic%20function.png> <br>
+<img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/quadratic%20function.png> <br>
 
 https://github.com/user-attachments/assets/eb8f1eea-5bec-42ee-9bcd-57115f89046b
 ### Align center (when pixy camera does not see road sign (State 2))
@@ -732,7 +732,7 @@ Our robot aligns itself with the center of the road when it doesn't see an objec
 <tr>
 <th width=250>
   
-<img src="https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/Playfieldodometry_page-0001.jpg?raw=true" width="400">
+<img src="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/Playfieldodometry_page-0001.jpg?raw=true" width="400">
 <p> 
 Segmented odometry
 </p>
@@ -767,13 +767,13 @@ To park accurately, an ultrasonic sensor is used, when this sensor notices a par
 https://github.com/user-attachments/assets/bfa87282-f41e-4c83-8d34-f1d38a4ead7e
 
 *Most tasks are performed using a pixy camera, here you can see how to set up this camera*
- * [Pixy2 camera's configuration](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/README.md)
+ * [Pixy2 camera's configuration](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/Obstacle_management/README.md)
 
 
 ## Kalman filter
 Kalman Filter - an algorithm that uses a series of measurements observed over time, including statistical noise and other inaccuracies, to produce estimates of unknown variables that tend to be more accurate than those based on a single measurement, by estimating a joint probability distribution over the variables for each time-step. In other words, whole round lasts for a few minutes and our obstacle management works only thanks for odometry, but in the long term driving, uncertainty rises gradually and in the end it can be crucial to robots movements, that is why we need Kalman Filter, that can compensate error of odometry.
 
-<img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/Uncertaintity.jpg">
+<img src="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/Uncertaintity.jpg">
 In this graph you can see how error of odometry slowly rises by one minute compared to ultrasonics values. Y coordinate shows the distance between robot and outer wall. 
 <div class="section">
   <h3>Kalman Filter Usage</h3>
@@ -811,7 +811,7 @@ Generally, 3 motors are sufficient for FE category robots, but we wanted to make
 In the previous version of our robot, we faced the problem when there was an increase in odometry error while moving and robot started to confuse objects and walls. Thus, robot could have difficulties in understanding his surrounding area.
 
 Therefore, in order to decrease the chance of mistake, we decided to use rotating ultrasonic sensors which measure distances from clear side. <br>
-  <img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEmodelsonic.jpeg" width="600"> 
+  <img src="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEmodelsonic.jpeg" width="600"> 
  <table>
   <tr>
     <th width=33%>Pros / Cons</th>
@@ -934,7 +934,7 @@ To mitigate this issue, we implemented a trust-based Kalman-inspired weighting s
 
 ## System integration rationale
 
-<img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/sensor%20fusion%20diagram.png>
+<img src=https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/sensor%20fusion%20diagram.png>
 
 The robot is conceived as an integrated system such that:
 
@@ -967,80 +967,80 @@ The README file contains all the information about the project structure and is 
 <tr>
   <th width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEmodelfront.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEmodelfront.jpeg)
   </th>
   <th width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEmodelleft.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEmodelleft.jpeg)
   </th>
 </tr>
 <tr>
   <td width=50%>
     
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEmodelright.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEmodelright.jpeg)
   </td>
   <td width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEmodelback.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEmodelback.jpeg)
   </td>
 </tr>
 <tr>
   <td width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEmodelbottom.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEmodelbottom.jpeg)
   </td>
   <td width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEmodeltop.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEmodeltop.jpeg)
   </td>
 </tr>
 <tr>
   <td width=50%>
   
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEmodelstyle.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEmodelstyle.jpeg)
   </td>
   <td width=50%>
   
 </td>
       <td width=50%>
         
-  ![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinalstyle2.jpeg)
+  ![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinalstyle2.jpeg)
     
   </td>
 </tr>
 <tr>
   <td width=50%>
     
-  ![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinalfront.jpeg)
+  ![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinalfront.jpeg)
     
   </td>
   <td width=50%>
     
-  ![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinalleft.jpeg)
-    
-  </td>
-</tr>
-<tr>
-  <td width=50%>
-    
-  ![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinalback.jpeg)
-    
-  </td>
-  <td width=50%>
-    
-  ![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinalright.jpeg)
+  ![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinalleft.jpeg)
     
   </td>
 </tr>
 <tr>
   <td width=50%>
     
-  ![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinaltop.jpeg)
+  ![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinalback.jpeg)
     
   </td>
   <td width=50%>
     
-  ![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Vehicle_photos/FEfinalbottom.jpeg)
+  ![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinalright.jpeg)
+    
+  </td>
+</tr>
+<tr>
+  <td width=50%>
+    
+  ![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinaltop.jpeg)
+    
+  </td>
+  <td width=50%>
+    
+  ![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Vehicle_photos/FEfinalbottom.jpeg)
     
   </td>
 </tr>
@@ -1053,9 +1053,9 @@ The README file contains all the information about the project structure and is 
 
 
 ## Team Photos
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Team_photos/team%20photo%20together.jpeg)
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Team_photos/workingproccess1.jpeg)
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Team_photos/workingproccess2.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Team_photos/team%20photo%20together.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Team_photos/workingproccess1.jpeg)
+![alt text](https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Team_photos/workingproccess2.jpeg)
 </br>
 </br>
 # <hr/>
@@ -1081,9 +1081,9 @@ The README file contains all the information about the project structure and is 
 
 # Code explanation
 The code is written in LEGO MINDSTORMS block programming language and you can download and check it 
-<a href="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/tree/main/Instructions">here</a>. </br>
+<a href="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/tree/main/Instructions">here</a>. </br>
 You can also download the previous version of the code, compare it with the new one, and follow our progress.</br>
-<a href="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Instructions/FECHALLENGE2025YA.ev3">previous code</a> <br> <br>
+<a href="https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/Instructions/FECHALLENGE2025YA.ev3">previous code</a> <br> <br>
 
 First of all we align the steering wheels to the center, so the robot moves straightforward. Then in configuration we set app all of the variables with specific values and using the bug of LEGO MINDSTORMS we reset the values of gyro sensor. Then our programm splits into 3 streams, first for robot control, 2nd for taking the values of Pixy2 camera into variables for obstacle management and the 3rd is for taking the values of UART sensors that are LEGO sensors and using the logic to determine the line color and round direction, activating the logic flag for turn, also the PID regulator of steering control is managed. Dividing the code into 3 streams is necessary for LEGO platform because it improves data processing and optimization of the programm logic and programm operating speed and improving precisesness of data. All of the key principles are in the 1st stream. This stream used for robot control and is responsible for the aligning to the center and to detour the obstacles. After that the main stream ends a loop for 3 laps and starts the parking. 
 
