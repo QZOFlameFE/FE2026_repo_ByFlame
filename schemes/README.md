@@ -1,5 +1,5 @@
 ## Power
-EV3 P-Brick: https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/95646c01%20Programmable%20brick.pdfd </br>
+EV3 P-Brick: https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/95646c01%20Programmable%20brick.pdf </br>
 Rechargable Battery: https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/95656%20Rechargeable%20battery.pdf </br>
 Medium motor: https://github.com/QZOFlameFE/FE2026_repo_ByFlame/blob/main/schemes/99455%20Medium%20motor.pdf </br>
 ## Sensors
