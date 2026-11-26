@@ -1178,9 +1178,8 @@ Since LEGO platform have numerous limitations it would be better to switch on Ra
 <a href="https://planetcalc.com/8110/?language_select=en&ysclid=m0a3s77i4p794636345">linear function by two points[8].</a> <br>
 
 # History of our team
-<p>
-  <b> 
-    # The History of QYZYLORDA Flame
+
+  # The History of QYZYLORDA Flame
 
 ## Our Origins and Community
 
@@ -1248,8 +1247,6 @@ If you have any questions, ideas, or suggestions, feel free to contact us via em
 Let's continue developing robotics, sharing knowledge, and leaving our mark on the history of robotics!
 
 **Special thanks to World Robot Olympiad.** Participation in WRO has inspired many members of our community to genuinely fall in love with robotics, and for some of us, it has become more than just a competition — it has become the foundation of our future careers and lifelong dedication to robotics and engineering.
-  </b>
-</p>
 
 <!-- 
 
