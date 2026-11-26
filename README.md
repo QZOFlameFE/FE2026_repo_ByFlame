@@ -1198,7 +1198,7 @@ One of the most prominent members of our community is **Vladimir Ussoltsev**, wh
 
 Vladimir was one of the people who envisioned building a strong robotics community where students could freely exchange ideas, knowledge, and experience. Always willing to help and support others, he played an important role in shaping the friendly and collaborative environment that our community has maintained throughout the 2019–2026 seasons.
 
-His brother, **Maxim Ussoltsev**, and his friend, **Dimash Abdiyev**, were also among the pioneers of our community. Together, they began competing in the RoboMission category in 2019, initially in Junior and later in Senior. Their competitive journey continued until the 2024 season, and one of their most remarkable achievements was securing **2nd place in RoboMission Senior at the 2023 International Final**.
+His brother, **Maxim Ussoltsev**, and **Dimash Abdiyev**, were also among the pioneers of our community. Together, they began competing in the RoboMission category in 2019, initially in Junior and later in Senior. Their competitive journey continued until the 2024 season, and one of their most remarkable achievements was securing **2nd place in RoboMission Senior at the 2023 International Final**.
 
 ## The Beginning of Our Future Engineers Journey — 2022–2023
 
