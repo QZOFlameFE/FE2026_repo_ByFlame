@@ -1176,6 +1176,81 @@ Since LEGO platform have numerous limitations it would be better to switch on Ra
 <a href="https://www.dexterindustries.com/ev3-current-consumption-measurement/">EV3 Current Consumption Measurement[6]</a> <br>
 <a href="https://pixycam.com/downloads-pixy2/">Pixy[7]</a> <br>
 <a href="https://planetcalc.com/8110/?language_select=en&ysclid=m0a3s77i4p794636345">linear function by two points[8].</a> <br>
+
+# History of our team
+<p>
+  <b> 
+    # The History of QYZYLORDA Flame
+
+## Our Origins and Community
+
+Our team's journey began in the 2023 season. Since the 2024 season, we have continued competing under the name **QYZYLORDA Flame**. The name *Qyzylorda* represents our city and was originally adopted as a distinctive identity for our school's WRO robotics community.
+
+However, the roots of this community go much further back. It was established and developed over many years by our school trainer, **Serik Akhmetov**, who has dedicated approximately a decade to robotics education and mentoring students.
+
+One of the most prominent members of our community is **Vladimir Ussoltsev**, who is now widely recognized throughout the WRO community and serves as a judge at international final competitions. Vladimir has worked as a trainer, mentor, and coach for ROBOTEK, guiding his students to remarkable achievements at international competitions, including:
+
+- **2nd place** — Future Engineers, International Final 2023
+- **3rd place** — RoboMission Junior, International Final 2023
+- **24th place** — RoboMission Senior, International Final 2023
+- **9th place** — RoboMission Junior, International Final 2024
+- **11th place** — RoboMission Senior, International Final 2024
+- **14th place** — Future Engineers, International Final 2024
+
+Vladimir was one of the people who envisioned building a strong robotics community where students could freely exchange ideas, knowledge, and experience. Always willing to help and support others, he played an important role in shaping the friendly and collaborative environment that our community has maintained throughout the 2019–2026 seasons.
+
+His brother, **Maxim Ussoltsev**, and his friend, **Dimash Abdiyev**, were also among the pioneers of our community. Together, they began competing in the RoboMission category in 2019, initially in Junior and later in Senior. Their competitive journey continued until the 2024 season, and one of their most remarkable achievements was securing **2nd place in RoboMission Senior at the 2023 International Final**.
+
+## The Beginning of Our Future Engineers Journey — 2022–2023
+
+Our journey in the Future Engineers category was built upon the experience and work of our school's robotics community in the 2022 season.
+
+That year, our school community reached the WRO International Final for the first time, with a team named **Tesla**, which finished **12th place in Future Engineers**. This achievement laid the foundation for the development of our team's future projects and solutions.
+
+In the 2023 season, **Ernur Sadu and Nurdaulet Adilbek** adopted the name *Qyzylorda* and began developing their first robot for the Future Engineers category. Their robot was capable of achieving full points in both the Open Challenge and the Obstacle Challenge. However, despite its successful performance in straightforward obstacle arrangements, it struggled with more complex configurations.
+
+Nevertheless, the team managed to overcome these limitations and achieved **5th place at the 2023 International Final**. This result marked an important milestone in our journey and motivated us to pursue more advanced engineering solutions.
+
+## 2024 — Research, Engineering and Innovation
+
+In the 2024 season, our team consisted of **Ernur Sadu and Aldiyar Appaz**. This was a particularly intensive season of research, experimentation, and engineering development.
+
+During this season, we developed what became one of the most widely adopted robot designs for the EV3 platform in our region. Our robot construction, which became known as the *EV3 meta*, was subsequently used and adapted by numerous teams at regional, national, and even international competitions.
+
+Our work was not limited to mechanical design. We integrated odometry principles into our navigation system, enabling the robot to handle a significantly wider range of obstacle arrangements and parking scenarios. We also built upon the mechanical design developed by the ROBOTEK Prime team, refining it to meet the specific demands of Future Engineers.
+
+Documentation became another important area of development. We established a comprehensive documentation framework that helped us achieve **26 out of 30 points** in the documentation assessment and provided a foundation for further improvements in subsequent seasons.
+
+One of our engineering solutions involved mechanically reducing the robot's length to ensure reliable entry into the parking zone. We implemented a motor-driven mechanism that folded the camera section of the robot, allowing it to fit within the required dimensions. At that time, this approach was not explicitly addressed by the competition rules. Our solution and the broader discussion surrounding robot dimensions contributed to subsequent rule changes in the 2025 season concerning the reduction of a robot's length.
+
+## 2025 — Adapting to New Rules
+
+In the 2025 season, our team consisted of **Ernur Sadu and Aidar Bizhanuly**. Building upon the experience, research, and engineering solutions developed in previous seasons, we continued improving both our robot and our documentation.
+
+Following the introduction of restrictions on reducing the robot's length, we reconsidered the use of our spare motor. Instead of using it for the previous mechanism, we repurposed it to rotate the ultrasonic sensor, allowing our robot to measure distances to both the inner and outer walls more effectively.
+
+This change represented another step in our team's continuous process of adapting, experimenting, and developing new engineering solutions in response to evolving competition requirements.
+
+## 2026 — A New Platform, A New Challenge
+
+In the 2026 season, **Ernur Sadu and Ayanur Sadu** undertook the challenge of developing a new robotic solution based on the LEGO SPIKE Prime platform and a HuskyLens camera.
+
+This project represented an opportunity to explore a different hardware platform, reconsider our previous approaches, and experiment with new possibilities in robotics. By combining our accumulated experience in mechanical engineering, autonomous navigation, computer vision, and documentation with new hardware, we continued our pursuit of innovative solutions for the Future Engineers category.
+
+## The Journey Continues
+
+Perhaps this is not the end of our journey.
+
+Our GitHub repository will continue to evolve as we share new solutions, engineering experiments, documentation, lessons learned, and stories from our community. We hope that our work will be useful to other teams, inspire new ideas, and contribute to the development of robotics around the world.
+
+If you have any questions, ideas, or suggestions, feel free to contact us via email.
+
+Let's continue developing robotics, sharing knowledge, and leaving our mark on the history of robotics!
+
+**Special thanks to World Robot Olympiad.** Participation in WRO has inspired many members of our community to genuinely fall in love with robotics, and for some of us, it has become more than just a competition — it has become the foundation of our future careers and lifelong dedication to robotics and engineering.
+  </b>
+</p>
+
 <!-- 
 
 
